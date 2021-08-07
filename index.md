@@ -1,6 +1,6 @@
 ## Pagina personal de Mario
 
- <div>Model Beby</div>
+<div>Model Beby</div>
 <button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
