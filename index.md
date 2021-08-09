@@ -1,6 +1,7 @@
 ## Pagina personal de Mario
-<div>Model Beby-Dormido-Despierto</div>
-<button type="button" onclick="init()">Start</button>
+
+<div>Modelo Mascarilla</div>
+<button type="button" onclick="init()">Comenzar..</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
@@ -10,7 +11,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "./my_model/";
+    const URL = "https://teachablemachine.withgoogle.com/models/20R9dyQgL/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -58,7 +59,6 @@
         }
     }
 </script>
-
 
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
